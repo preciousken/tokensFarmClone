@@ -373,49 +373,49 @@ grid-template-columns: 1fr 3fr;
 }
 
 .live-farm:not(.past-farm) .cards:nth-child(1){
-    background-image: url(https://s3.amazonaws.com/static.tokensfarm.com/xcad/lp/13/banner.jpg);
+    background-image:linear-gradient(to bottom,  rgba(0, 0, 0,50%), rgba(0, 0, 0,100%)), url(https://s3.amazonaws.com/static.tokensfarm.com/xcad/lp/13/banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .live-farm:not(.past-farm) .cards:nth-child(2){
-    background-image: url(https://s3.amazonaws.com/static.tokensfarm.com/vent/3s/2/banner.png);
+    background-image:linear-gradient(to bottom,  rgba(0, 0, 0,50%), rgba(0, 0, 0,100%)), url(https://s3.amazonaws.com/static.tokensfarm.com/vent/3s/2/banner.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .live-farm:not(.past-farm) .cards:nth-child(3){
-    background-image: url(https://s3.amazonaws.com/static.tokensfarm.com/copi/3s/5/banner.jpg);
+    background-image:linear-gradient(to bottom,  rgba(0, 0, 0,50%), rgba(0, 0, 0,100%)), url(https://s3.amazonaws.com/static.tokensfarm.com/copi/3s/5/banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .live-farm:not(.past-farm) .cards:nth-child(4){
-    background-image: url(https://s3.amazonaws.com/static.tokensfarm.com/slime/3s/1/banner.png);
+    background-image:linear-gradient(to bottom,  rgba(0, 0, 0,50%), rgba(0, 0, 0,100%)), url(https://s3.amazonaws.com/static.tokensfarm.com/slime/3s/1/banner.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .live-farm:not(.past-farm) .cards:nth-child(5){
-    background-image: url(https://s3.amazonaws.com/static.tokensfarm.com/msu/3s/2/banner.png);
+    background-image:linear-gradient(to bottom,  rgba(0, 0, 0,50%), rgba(0, 0, 0,100%)), url(https://s3.amazonaws.com/static.tokensfarm.com/msu/3s/2/banner.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .live-farm:not(.past-farm) .cards:nth-child(6){
-    background-image: url(https://s3.amazonaws.com/static.tokensfarm.com/chrp/3s/2/banner.png);
+    background-image:linear-gradient(to bottom,  rgba(0, 0, 0,50%), rgba(0, 0, 0,100%)), url(https://s3.amazonaws.com/static.tokensfarm.com/chrp/3s/2/banner.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .live-farm:not(.past-farm) .cards:nth-child(7){
-    background-image: url(https://s3.amazonaws.com/static.tokensfarm.com/sne/3s/1/banner.png);
+    background-image:linear-gradient(to bottom,  rgba(0, 0, 0,50%), rgba(0, 0, 0,100%)), url(https://s3.amazonaws.com/static.tokensfarm.com/sne/3s/1/banner.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .live-farm:not(.past-farm) .cards:nth-child(8){
-    background-image: url(https://s3.amazonaws.com/static.tokensfarm.com/xcad/lp/12/banner.jpg);
+    background-image:linear-gradient(to bottom,  rgba(0, 0, 0,50%), rgba(0, 0, 0,100%)), url(https://s3.amazonaws.com/static.tokensfarm.com/xcad/lp/12/banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -423,20 +423,22 @@ grid-template-columns: 1fr 3fr;
 
 
 
+
+
 .live-farm.past-farm .cards:nth-child(1){
-    background-image: url(https://s3.amazonaws.com/static.tokensfarm.com/lbp/3s/1/banner.jpeg);
+    background-image:linear-gradient(to bottom,  rgba(0, 0, 0,50%), rgba(0, 0, 0,100%)), url(https://s3.amazonaws.com/static.tokensfarm.com/lbp/3s/1/banner.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .live-farm.past-farm .cards:nth-child(2){
-    background-image: url(https://s3.amazonaws.com/static.tokensfarm.com/copi/3s/4/banner.jpg);
+    background-image:linear-gradient(to bottom,  rgba(0, 0, 0,50%), rgba(0, 0, 0,100%)), url(https://s3.amazonaws.com/static.tokensfarm.com/copi/3s/4/banner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .live-farm.past-farm .cards:nth-child(3){
-    background-image: url(https://s3.amazonaws.com/static.tokensfarm.com/epik/lp/6/banner.png);
+    background-image:linear-gradient(to bottom,  rgba(0, 0, 0,50%), rgba(0, 0, 0,100%)), url(https://s3.amazonaws.com/static.tokensfarm.com/epik/lp/6/banner.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
