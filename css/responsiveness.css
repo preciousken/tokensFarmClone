@@ -6,6 +6,9 @@
     
         grid-gap: 20px;
     }
+    .accordion{
+        background-color: red;
+    }
 }
 @media  screen and (max-width: 1000px) {
     
@@ -143,7 +146,7 @@
 
     /* earn reward */
 .earnReward{
-    background-color: var(--black);
+    background-color: var(--Bg2);
     display: grid;
     grid-template-columns: 0.1fr 1fr 1fr 0.1fr;
 }

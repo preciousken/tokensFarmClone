@@ -147,7 +147,8 @@ background-color: var(--mainColor);
 
 .body-content .content-body .hero-section{
     /* background-color: var(--heroBg); */
-    background-color: var(--Bg2);
+    /* background-color: var(--Bg2); */
+    background-image:linear-gradient(to bottom,  var(--heroBg),var(--Bg2));
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     height: auto;
