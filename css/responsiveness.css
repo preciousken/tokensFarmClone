@@ -20,21 +20,22 @@
     .body-content .content-body .hero-section{
         /* background-color: var(--heroBg); */
         background-color: var(--Bg2);
-        display: grid;
-        /* grid-template-columns: 1fr  !important; */
-        grid-template-rows: 1fr ;
+        /* display: grid;
+         grid-template-columns: 1fr  ;  */
+         display: flex !important;
+         flex-direction: column !important;
         height: auto;
     
         /* margin: 10px;    */
     }
 
     .body-content .content-body .hero-section>*{
-        /* border: 1px solid red; */
+        border: 1px solid red;
         margin-top: 30px;
-        overflow-y: scroll;
+        /* overflow-y: scroll; */
     }
     .body-content .content-body .hero-section .content{
-        /* grid-column: 1/4; */
+        grid-column: 1/4;
     }
     .body-content .content-body .hero-section .content h1{
         
