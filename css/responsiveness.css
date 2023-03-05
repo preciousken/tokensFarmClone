@@ -24,14 +24,20 @@
          grid-template-columns: 1fr  ;  */
          display: flex !important;
          flex-direction: column !important;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
         height: auto;
     
         /* margin: 10px;    */
     }
 
+    .body-content .content-body .hero-section>*:nth-child(1){
+        
+        margin-top: 60px;
+    }
     .body-content .content-body .hero-section>*{
         /* border: 1px solid red; */
-        margin-top: 30px;
         width: 70vw;
         /* overflow-y: scroll; */
     }
@@ -107,6 +113,23 @@
         font-size: 0.7rem;
         /* background-color: red; */
         color: var(--black3);
+    }
+
+
+
+    /* filter section */
+    .filter-buttons{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .filter-buttons >* {
+        width: 90%;
+    }
+    .btn-filter{
+        display: none;
+    }
+    .change-view{
+        display: none !important;
     }
 }
 
