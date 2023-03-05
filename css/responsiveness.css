@@ -14,7 +14,8 @@
         /* background-color: var(--heroBg); */
         background-color: var(--Bg2);
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr !important;
+        /* grid-template-columns: 1fr  !important; */
+        grid-template-rows: 1fr ;
         height: auto;
     
         /* margin: 10px;    */
@@ -26,7 +27,7 @@
         overflow-y: scroll;
     }
     .body-content .content-body .hero-section .content{
-        grid-column: 1/4;
+        /* grid-column: 1/4; */
     }
     .body-content .content-body .hero-section .content h1{
         
@@ -44,7 +45,8 @@
     }
     .body-content .content-body .hero-section .image{
         position: relative;
-        grid-column: 1/7;
+        /* display: none; */
+        /* grid-column: 1/7; */
     }
     .hero-section .image img:nth-child(1){  
         position: absolute;
