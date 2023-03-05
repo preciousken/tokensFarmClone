@@ -1,3 +1,12 @@
+@media  screen and (max-width: 615px) {
+    .main .title, .main .live-farm{
+        grid-column: 2/6;
+        display: grid;
+        grid-template-columns: 1fr !important;
+    
+        grid-gap: 20px;
+    }
+}
 @media  screen and (max-width: 1000px) {
     
 
