@@ -1,6 +1,13 @@
 @media  screen and (max-width: 1000px) {
     
 
+  /* body */
+.body:nth-child(2){
+    background-color: var(--black);
+    display: grid;
+    grid-template-columns: 0 6fr;
+    overflow-y: scroll;
+}
 
     .main .title, .main .live-farm{
         grid-column: 2/6;
