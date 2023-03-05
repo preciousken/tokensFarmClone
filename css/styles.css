@@ -55,7 +55,7 @@ background-color: var(--mainColor);
 
 /* body */
 .body:nth-child(2){
-    background-color: var(--black);
+    background-color: var(--Bg2);
     display: grid;
     grid-template-columns: 1fr 6fr;
     overflow-y: scroll;
@@ -102,11 +102,11 @@ background-color: var(--mainColor);
 
 .body-content{
     display: grid;
-    grid-template-rows: minmax(30px, 50px) 15fr !important;
+    grid-template-rows: minmax(50px, 60px) 15fr !important;
     overflow-y: scroll;
 }
 .body-content .header {
-    /* background-color: var(--balck); */
+    background-color: var(--black);
     /* background-color: red; */
     justify-content: center;
     align-items: center;
@@ -510,3 +510,4 @@ grid-template-columns: 1fr 3fr;
 .earnReward .banner p{
     color: gray;
 }
+
