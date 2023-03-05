@@ -14,17 +14,89 @@
         /* background-color: var(--heroBg); */
         background-color: var(--Bg2);
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr !important;
         height: auto;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        min-height: 450px;
-        gap: 50px;
     
-        /* margin: 10px; */
+        /* margin: 10px;    */
     }
 
+    .body-content .content-body .hero-section>*{
+        /* border: 1px solid red; */
+        margin-top: 30px;
+        overflow-y: scroll;
+    }
+    .body-content .content-body .hero-section .content{
+        grid-column: 1/4;
+    }
+    .body-content .content-body .hero-section .content h1{
+        
+        font-weight: normal;
+        font-size: 1.3rem !important;
+    }
+    .body-content .content-body .hero-section .content h3{
+        /* font-family: 'Poppins', sans-serif; */
+        /* font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif; */
+        font-weight: 50;
+        line-height: 20px;
+        margin-top: 20px;
+        font-size: 0.8rem !important;
+    }
+    .body-content .content-body .hero-section .image{
+        position: relative;
+        grid-column: 1/7;
+    }
+    .hero-section .image img:nth-child(1){  
+        position: absolute;
+        left: 120px;
+        z-index: 0;
+        top: 120px;
+        right: 30px;
+        width: 140px;
+    }
+    .hero-section .image img:nth-child(2){  
+        position: absolute;
+        left: 120px;
+        top: 200px;
+        right: 30px;
+        width: 90px;
+        z-index: 10000000000;
+    }
+    .hero-section .image img:nth-child(3){  
+        /* position: absolute;
+        left: 150px;
+        top: 150px;
+        right: 30px; */
+        margin-left: 20px;
+        width: 150px;
+        z-index: 1000000000;
+    }
+    .hero-section .buttons {
+        margin-top: 20px;
+        color: var(--black3);
+    }
+    .hero-section .buttons i:nth-child(2){
+    margin-left: 10px;
+    }
+    
+    .hero-section .ratings{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        /* border: 1px solid red; */
+        display: grid;
+        margin-top: 20px;
+    }
+    .hero-section .ratings >*{
+        background-color:var(--black2);
+        padding:  5px;
+        text-align: center;
+    }
+    .hero-section .ratings small {
+        font-size: 0.7rem;
+        /* background-color: red; */
+        color: var(--black3);
+    }
 }
 
 
