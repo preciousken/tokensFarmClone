@@ -30,8 +30,9 @@
     }
 
     .body-content .content-body .hero-section>*{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin-top: 30px;
+        width: 70vw;
         /* overflow-y: scroll; */
     }
     .body-content .content-body .hero-section .content{
