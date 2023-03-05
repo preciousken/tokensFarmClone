@@ -481,6 +481,9 @@ grid-template-columns: 1fr 3fr;
     background-color: var(--Bg2);
     display: grid;
     grid-template-columns: 0.5fr repeat(6, 1fr) 0.5fr;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 100px; */
 }
 .earnReward>*{
     margin: 5px;
@@ -491,4 +494,19 @@ grid-template-columns: 1fr 3fr;
     border-radius: 10px;
     min-height: 120px;
     background-image:linear-gradient(to bottom,  transparent, rgba(0, 0, 0,50%)), url(https://tokensfarm.com/assets/images/faq-bg.png);
+}
+.earnReward .banner h1, .earnReward .banner p{
+    font-weight: normal;
+    text-align: center;
+}
+.earnReward .banner h1 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    text-align: center;
+}
+.earnReward .banner span{
+    color: var(--mainColor);
+}
+.earnReward .banner p{
+    color: gray;
 }
