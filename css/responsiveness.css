@@ -140,6 +140,23 @@
     .change-view{
         display: none !important;
     }
+
+    /* earn reward */
+.earnReward{
+    background-color: var(--Bg2);
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr 0.1fr;
+}
+.earnReward>*{
+    margin: 5px;
+    /* border: 1px solid red; */
+}
+.earnReward .banner{
+    grid-column: 2/4;
+    border-radius: 10px;
+    min-height: 120px;
+    background-image:linear-gradient(to bottom,  transparent, rgba(0, 0, 0,50%)), url(https://tokensfarm.com/assets/images/faq-bg.png);
+}
 }
 
 
