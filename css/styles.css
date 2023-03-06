@@ -249,6 +249,31 @@ margin-left: 10px;
     align-items: center;
     gap: 50px;
 }
+.filter .icons{
+    grid-column: 2/4;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) repeat(5, 3fr) 1fr 2fr;
+    gap: 10px;
+}
+.filter .icons >*{
+    /* border: 1px solid red; */
+    border: 1px solid #fff;
+    font-size: 8px;
+    background-color: transparent;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.filter .icons >*:hover{
+    background-color: #fff;
+    color: var(--black);
+}
+.filter .icons .active{
+    background-color: #fff;
+    color: var(--black);
+}
 .filter .filter-buttons{
     grid-column: 2/6;
     /* background-color: red; */

@@ -10,6 +10,81 @@
         background-color: red;
     }
 }
+
+@media screen and (max-width: 580px) {
+    .filter .icons{
+        grid-column: 2/4;
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) repeat(3, 3fr) 1fr 2fr !important;
+        gap: 10px;
+    }
+}
+
+
+@media screen and (max-width: 545px) {
+    .filter .icons{
+        grid-column: 2/4;
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) repeat(2, 3fr) 1fr 2fr !important;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .filter .icons{
+        grid-column: 2/4;
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) repeat(1, 3fr) 1fr 2fr !important;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .filter .icons{
+        grid-column: 2/4;
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) repeat(1, 3fr) 1fr 2fr !important;
+        gap: 10px;
+    }
+}
+
+
+@media screen and (max-width: 395px) {
+    .filter .icons{
+        grid-column: 2/4;
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) repeat(1, 3fr) 1fr 2fr !important;
+        gap: 10px;
+    }
+}
+
+
+@media screen and (max-width: 335px) {
+    .filter .icons{
+        grid-column: 2/4;
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns:  repeat(1, 3fr) 1fr 2fr !important;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .filter .icons{
+        grid-column: 2/4;
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) repeat(4, 3fr) 1fr 2fr;
+        gap: 10px;
+    }
+}
+
+
 @media  screen and (max-width: 1000px) {
     
 
